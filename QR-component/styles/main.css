@@ -19,11 +19,12 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items:  center;
 }
 
 .card{
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     background-color: var(--White);
     padding: 1em;
     border-radius: 15px;
@@ -36,7 +37,7 @@ body{
     padding: 0 1em;
 }
 .card img{
-    width: inherit;
+    width: 100%;
     border-radius: 10px;
     text-align: center;
 }
@@ -50,8 +51,7 @@ body{
 }
 
 .attribution { 
-    position: relative;
-    top: 4vh;
+   margin-top: 2em;
     font-size: 0.8rem; 
     text-align: center; 
 }
