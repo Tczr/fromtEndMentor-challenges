@@ -26,7 +26,7 @@ build out QR code component and get it looking as close to the design as possibl
 
 ### Links
 
-- Solution URL: [My solution on FrontEnd Mentor website](https://www.frontendmentor.io/profile/Tczr)
+- Solution URL: [My solution on FrontEnd Mentor website](https://www.frontendmentor.io/solutions/qr-component-using-simple-css-and-html-RC4GKX6qJ0)
 - Live Site URL: [Live here](https://tczr.github.io/frontEndMentor-challenges/QR-component)
 
 ## My process
