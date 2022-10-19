@@ -1,12 +1,9 @@
 :root{
-    
 --White: hsl(0, 0%, 100%);
 --Light-gray: hsl(212, 45%, 89%);
 --Grayish-blue: hsl(220, 15%, 55%);
 --Dark-blue: hsl(218, 44%, 22%);
-
 }
-
 *{
     margin:0;
     padding: 0;
@@ -23,9 +20,6 @@ body{
     align-items: center;
     
 }
-
-
-
 .card{
     width: 100%;
     max-width: 300px;
@@ -54,7 +48,6 @@ body{
     font-size:1.3rem ;
     color: var(--Dark-blue);
 }
-
 .attribution { 
     margin-top: 2em;
     font-size: 0.8rem; 
