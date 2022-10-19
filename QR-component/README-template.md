@@ -19,15 +19,15 @@ build out QR code component and get it looking as close to the design as possibl
 ### Screenshot
 
  Desktop
-![Desktop screen](screenshots/QR-SCSH-DESK.jpeg)
+![Desktop screen](/screenshots/QR-SCSH-DESK.jpeg)
 
  Phone
-![phone screen](screenshots/QR-SSCSH-PHONE.jpeg)
+![phone screen](/screenshots/QR-SSCSH-PHONE.jpeg)
 
 ### Links
 
 - Solution URL: [My solution on FrontEnd Mentor website](https://www.frontendmentor.io/profile/Tczr)
-- Live Site URL: [Live here]([https://your-live-site-url.com](https://tczr.github.io/frontEndMentor-challenges/QR-component))
+- Live Site URL: [Live here](https://tczr.github.io/frontEndMentor-challenges/QR-component)
 
 ## My process
 1. I looked at the design and thought about the structure.
