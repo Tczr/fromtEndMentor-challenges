@@ -19,10 +19,10 @@ build out QR code component and get it looking as close to the design as possibl
 ### Screenshot
 
  Desktop
-![Desktop screen](/screenshots/QR-SCSH-DESK.jpeg)
+![Desktop screen](./screenshots/QR-SCSH-DESK.jpeg)
 
  Phone
-![phone screen](/screenshots/QR-SSCSH-PHONE.jpeg)
+![phone screen](./screenshots/QR-SSCSH-PHONE.jpeg)
 
 ### Links
 
