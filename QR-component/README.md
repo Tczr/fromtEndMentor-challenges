@@ -22,3 +22,5 @@ There is a `style-guide.md` file containing the information used in the desgin s
 
 There is `README-template.md` file cotaining the template information, and screen shot and my process, also the concepts I used. [check it out](README-template.md)
 
+## see challenge Live
+ [Go to challenge page](https://tczr.github.io/frontEndMentor-challenges/QR-component)
