@@ -20,7 +20,7 @@ There is also a `style-guide.md` file containing all of the information used in 
 ## Links
 - [See it Live](https://tczr.github.io/frontEndMentor-challenges/product-preview-card-component-main)
 
-- [See it in FrontEndMentor]()
+- [See it in FrontEndMentor](https://www.frontendmentor.io/solutions/product-preview-card-using-simple-css-and-html-i8jbyru0jg)
 
 ## Got feedback for us?
 
