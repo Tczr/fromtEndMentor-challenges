@@ -13,8 +13,8 @@
 body{
     font-family: 'Outfit', sans-serif;
     background-color: var(--Light-gray);
-    height: 100vh;
-     display: flex;
+     height: 100vh;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
