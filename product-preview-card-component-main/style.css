@@ -71,6 +71,11 @@ h1,.active-price{
     border-radius: 5px;
     font-family: var(--montserrat);
     cursor: pointer;
+    
+}
+.btn.add:hover{
+    background: hsl(157, 36%, 25%);
+  
 }
 .btn.add{
     background-color: var(--dark-cyan);
