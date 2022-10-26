@@ -26,8 +26,8 @@ main{
     margin: 1em 0;
     box-shadow: 3px 3px 10px 0 rgba(0,0, 0, .1) ;
 }
-section.product-image{
-    height: 260px;
+section.product-image picture{
+    /* height: 260px; */
     border-radius: 6px 6px 0px 0px;
 }
 section.product-description{
@@ -99,21 +99,34 @@ h1,.active-price{
     align-items: center;
     justify-content: center;
 }
+
+del::before,
+del::after {
+  clip-path: inset(100%);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+del::after {
+    content: " [old price was changed] ";
+}
 @media (min-width:550px) {
         main{
             display: flex;
-
             max-width: 570px;
-           
         }
         main>section{
             width: 50%;
             align-self: center;
         }
-
-
         section.product-image{
             height: 395px;
+        }
+        section.product-image > picture {
+            
             border-radius: 6px 0px 0px 6px;
         }
         

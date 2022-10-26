@@ -18,8 +18,12 @@
 
   <main>
     <section class="product-image">
-      <img alt="A picture of a Chanel Gabrielle perfume among the leaves" src="./images/image-product-desktop.jpg"/>
+      <picture>
+          <source srcset="./images/image-product-mobile.jpg" media="(max-width:550px)"/>
+          <img alt="A picture of a Chanel Gabrielle perfume among the leaves" src="./images/image-product-desktop.jpg"/>
 
+      </picture>
+      
      </section>
 
      <section class="product-description">
@@ -35,7 +39,9 @@
         <div>  
           <span class="active-price bold">$149.99</span>
           
-          <span class="old-price primary">$169.99</span>
+          <del class="old-price primary">
+            $169.99
+          </del>
         </div>
 
         <button class="btn add bold center-v-h">
