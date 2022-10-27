@@ -1,0 +1,111 @@
+:root{
+    --light-gray:rgb(230, 230, 230);
+    --orange:rgb(227, 136, 38);
+    --dark-cyan:rgb(0, 105, 112);
+    --darker-cyan:rgb(0, 66, 65);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: var(--light-gray);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    overflow: hidden;
+}
+h1{
+    color: var(--light-gray);
+    font-size:2em;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+}
+p{
+    color: rgba(255, 255, 255, 0.75);
+    max-width:210px ;
+    margin-top: -1em;
+}
+svg{
+    Width:64px; 
+    height:40px;
+}
+.cards
+{
+    display: flex;
+    border-radius: 5px;
+    width: fit-content;
+    max-width: 900px;
+    min-height: 70vh;
+    overflow: hidden;
+
+
+}
+.card{
+    padding: 2.5em;
+    transition: .5s ease-in-out;
+}
+.card>article{
+    margin-top: 1em;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+.btn{
+    
+    font-family: inherit;
+    font-size: 1.1em;
+    letter-spacing: .1px;
+    font-stretch: extra-expanded;
+    text-transform: capitalize;
+    padding: 0.8em 1em;
+    background:var(--light-gray);
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition:  .5s ease-out;
+    max-width:160px ;
+}
+.btn:hover{
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
+
+/* coloring calsses */
+.bg-dark-cyan{background-color: var(--dark-cyan);}
+.bg-darker-cyan{background-color:var(--darker-cyan);}
+.bg-orange{ background-color:var(--orange) }
+.dark-cyan{color: var(--dark-cyan);}
+.darker-cyan{color: var(--darker-cyan);}
+.orange{color: var(--orange);}
+
+/* Mobile screen*/
+@media (max-width:620px) {
+    body{
+        overflow: scroll;
+
+    }
+    .cards{
+        flex-direction:column;
+        height: auto;
+        max-width: 500px;
+        margin: 5em 0;
+    }
+    .card{
+        min-height: 400px;
+    }
+    .btn{
+        padding: 0.5em ;
+        border-radius: 30px;
+    }
+    
+    
+} 
