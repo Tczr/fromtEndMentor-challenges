@@ -44,8 +44,7 @@ svg{
     width: fit-content;
     max-width: 900px;
     overflow: hidden;
-
-
+    min-height: 65vh;
 }
 .card{
     padding: 2.5em;
@@ -56,12 +55,11 @@ svg{
     height: 80%;
     display: flex;
     flex-direction: column;
-    gap: 3em;
+    justify-content: space-between;
 }
 .btn{
     
     font-family: inherit;
-    font-size: 1.1em;
     letter-spacing: .1px;
     font-stretch: extra-expanded;
     text-transform: capitalize;
@@ -102,6 +100,10 @@ svg{
     }
     .card{
         min-height: 400px;
+    }
+    .card>article{
+        gap: 3em;
+
     }
     .btn{
         border-radius: 30px;
