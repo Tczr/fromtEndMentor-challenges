@@ -32,10 +32,12 @@ Descktop screen
 Mobile screen
 
 ![mobile](./images/3column-card-component-mobile.jpeg)
+
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/3-cards-component-using-simple-css-and-html-Rj0-KkXtnv)
+
+- Live URL: [Live](https://tczr.github.io/frontEndMentor-challenges/3-column-preview-card-component-main/)
 
 
 ### Built with
