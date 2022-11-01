@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    /* min-width: 375px; */
+    max-width: 1440px;
+    background: hsl(228deg 11% 9%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+h1, h2{
+    margin: 0;
+    margin-top: 1.5em;
+}
+.card{
+    max-width: 375px;
+    background: linear-gradient( 180deg,hsl(215deg 20% 16%), hsl(215deg 27% 12%));
+    box-shadow: 2px 2px 10px 0 rgb(23 28 35 / 63%);
+    padding: 2em;
+    border-radius: 25px;
+}
+.component{
+    opacity: 0;
+    display: none;
+    transition: 0.2s opacity ease-out;
+}
+.component[data-active]{
+    opacity: 1;
+    display:block;
+}
+.thank{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.thank>p{
+    margin: 1.5em auto 0;
+    background-color: rgb(33 39 49);
+    color: hsl(25deg 97% 53% / 77%);
+    width: fit-content;
+    padding: 0.5em 1.5em;
+    border-radius: 20px;
+}
+
+p{
+    max-width: 340px;
+    font-weight: 400;
+    color: hsl(216, 12%, 54%);
+    margin-top: 0.7em;
+}
+
+.icon>img{
+    display: block;
+    background: hsl(216deg 12% 54% / 15%);
+    box-shadow: 0 0 5px 0px rgb(0 0 0 / 15%);
+    padding: 0.9em;
+    border-radius: 50%;
+}
+.rating-ratios{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+   
+}
+
+.rating-ratios>span{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background: hsl(216deg 12% 54% / 15%);
+    box-shadow: 0 0 5px 0px rgb(0 0 0 / 15%);
+    border-radius: 50%;
+    transition: 0.4s background ease-in-out;
+
+}
+.submit-btn{
+    width: 100%;
+    padding: 1em;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 700;
+    background-color:  hsl(25, 97%, 53%);
+    color: white;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.4s background ease-in-out;
+}
+
+.submit-btn:hover, .rating-ratios>span{
+    cursor: pointer;
+}
+.submit-btn:hover{
+    color: hsl(25, 97%, 53%);
+    background-color: white;
+}
+.rating-ratios>span:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+.rating-ratios>span:active,.rating-ratios>span[data-selected]{
+    background-color:hsl(216, 12%, 54%) ;
+}
+
+@media (max-width:400px) {
+    .card{
+        width: 90%;
+        padding: 1.5em;
+    }
+   
+}
