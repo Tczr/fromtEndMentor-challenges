@@ -67,7 +67,7 @@ picture img{
         padding: 35px;
         position: relative;
         color: white;
-        height: 80vh;
+        height: 100vh;
     }
     .hero picture{
         position: absolute;
@@ -117,7 +117,6 @@ picture img{
         border: 1px solid white;
         border-radius: 2px;
         outline: 1px solid black;
-        padding: 5px;
     }
     .hero nav .burger-menu > .line {
         background-color: white;
@@ -170,7 +169,7 @@ picture img{
             right: 0;
             border-bottom:30px solid white;
             border-left: 50px solid transparent;
-
+            
         }
        .hero nav .links{
         transition: width .3s ease-in, .3s ease-in;
@@ -186,6 +185,7 @@ picture img{
         flex-direction: column;
         text-align: center;
         justify-content: space-around;
+        z-index: 999;
         }
         .hero nav .links a{
             color: hsl(213, 9%, 39%);
